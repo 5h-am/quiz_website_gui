@@ -1,4 +1,4 @@
-
+console.log("Its working");
 const categories = ["entertainment", "humanities", "science", "sports", "technology", 
     "food", "lifestyle", "academic", "fun"];
 
