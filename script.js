@@ -1,4 +1,4 @@
-console.log("Its working");
+
 const categories = ["entertainment", "humanities", "science", "sports", "technology", 
     "food", "lifestyle", "academic", "fun"];
 
@@ -3124,8 +3124,8 @@ function quizGenerator (category,sub_category) {
 }
 
 
-
-if (window.location.pathname.endsWith("index.html")) {
+let singleplayer_btn = document.querySelector(".singleplayer-btn");
+if (singleplayer_btn) {
 	let singleplayer_btn = document.querySelector(".singleplayer-btn");
 	let modes = document.querySelector(".Modes");
 	let username = document.querySelector(".username");
@@ -3190,8 +3190,8 @@ if (window.location.pathname.endsWith("index.html")) {
 	})
 }
 
-if (window.location.pathname.endsWith("quiz_page.html")) {
-	let exit_btn = document.querySelector(".exit-btn");
+let exit_btn = document.querySelector(".exit-btn");
+if (exit_btn) {
 	let heading = document.querySelector(".headingh2")
 	let question_box = document.querySelector(".question");
 	let next_btn = document.querySelector(".next-btn");
