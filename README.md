@@ -231,7 +231,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **Shubham Kumar**
 
-- GitHub: [@5h-am]
+- GitHub: [5h-am]
 - Website: [https://5h-am.github.io/quiz_website_gui/]
 - Email: shame06rxl@gmail.com
 
