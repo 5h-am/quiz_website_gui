@@ -97,10 +97,9 @@ Akashic Records is a knowledge-testing quiz platform featuring a mystical theme 
 Your quiz data should follow this structure:
 
 ```javascript
-const records = {
-  // Categories list
-  categories: ["History", "Science", "Geography"],
-  
+// Categories list
+const categories: ["History", "Science", "Geography"];
+const records = {  
   // Questions by category and subcategory
   History_questions: {
     "Ancient Civilizations": [
@@ -232,7 +231,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **Shubham Kumar**
 
-- GitHub: [5h-am]
+- GitHub: [@5h-am]
 - Website: [https://5h-am.github.io/quiz_website_gui/]
 - Email: shame06rxl@gmail.com
 
