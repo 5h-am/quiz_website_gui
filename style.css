@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+IT+Moderna+Guides&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Itim&family=Noto+Sans+Old+Italic&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-inline-size: 100%;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    background-color: #48C9B0;
+    line-height: 1.5;
+
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1 {
+    max-inline-size: 90%;
+    min-block-size: 90%;
+    inline-size: 30rem;
+    block-size: 20rem;
+    
+
+    margin-inline: auto;
+    background-color: #fff;
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+header {
+    text-align: center;
+}
+h1{
+    font-family: "Playwrite IT Moderna Guides";
+    font-size: 4rem;
+    margin-bottom: 4rem;
+}
+
+header p {
+    font-family: "Italianno";
+    font-weight: 500;
+    font-size: 3rem;
+    text-decoration: underline;
+    margin-bottom: 1.5rem;
+}
+
+.centerelements{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-block-size: 90%;
+    gap: 1.5rem;
+}
+
+.modesbutton {
+    font-family: "Itim";
+    padding: 0.8rem 3rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    background-color: #E8DAEF;
+    border: 3px groove #4A235A;
+    border-radius: 1.5rem;
+    transition: 0.6s;
+    box-shadow: 5px 3px 2px #5B2C6F;
+}
+
+.modesbutton:hover,
+.modesbutton:focus-visible {
+    background-color: #BB8FCE;
+    cursor: pointer;
+    transform: translate(-4px,-4px);
+} 
+
+.nameinput {
+    padding: 0.5rem;
+    background-color: #A9CCE3;
+    font-family: "Itim";
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 1.5rem;
+    border: 2px groove #0a6da7;
+    box-shadow: 5px 3px 2px #809f98
+}
+
+.submit-btn {
+    padding: 0.5rem;
+    background-color: #63C6F8;
+    font-family: "Itim";
+    font-weight: 700;
+    font-size: 1.2rem;
+    border-radius: 2rem;
+    border: 2px groove #000;
+    transition: 0.6s;
+    box-shadow: 5px 3px 2px #85a0ae
+}
+
+.submit-btn:hover,
+.submit-btn:focus-visible {
+    background-color: #F1948A;
+    cursor: pointer;
+    transform: translate(-4px,-4px);
+}
+
+.category_design {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-block-size: 90%;
+    gap: 2rem;
+}
+
+.sub_categoryselector{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    font-family: "Itim";
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.dropdown {
+    font-family: "Itim";
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    background-color: #D7DBDD;
+}
+
+.container2 {
+    max-inline-size: 90%;
+    inline-size: 55rem;
+    padding: 3rem;
+    padding-bottom: 5rem;
+    background-color: #fff;
+    margin-inline: auto;
+    border-radius: 1.5rem;
+}
+
+.quiz-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.heading {
+    text-align: center;
+    font-family: "Italianno";
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.question {
+    border: 2px #000 solid;
+    border-radius: 1rem;
+    max-inline-size: 100%;
+    inline-size: 50rem;
+    padding: 1rem;
+    margin-inline: auto;
+    background-color: #FADBD8;
+    font-family: "Noto Sans Old Italic";
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+
+}
+.option_button {
+    border: 2px #000 solid;
+    border-radius: 1rem;
+    max-inline-size: 100%;
+    inline-size: 20rem;
+    padding: 1rem;
+    background-color: #FADBD8;
+    font-family: "Noto Sans Old Italic";
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: 0.4s;
+}
+
+.option_button:hover,
+.option_button:focus-visible{
+    cursor: pointer;
+    background-color: #EC7063;
+}
+
+.grouped_options {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.bottom-quiz {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    font-family: "Itim";
+    font-weight: 500;
+    font-size: 1.5rem;
+
+}
+
+.next-btn {
+    background-color: #48C9B0;
+    border: 2px #000 solid;
+    border-radius: 1.2rem;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    padding: 0.6rem;
+    margin-inline: 2rem;
+    margin-block: 1rem;
+    transition: 0.4s;
+}
+
+.next-btn:hover,
+.next-btn:focus-visible {
+    cursor: pointer;
+    background-color: #1E8449;
+}
+
+.losers-btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    font-family: "Itim";
+    font-weight: 500;
+    font-size: 1.5rem;
+
+}
+
+.exit-btn, .cheat-btn {
+    background-color: #E59866;
+    border: 2px #000 solid;
+    border-radius: 1.2rem;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    padding: 0.6rem;
+    margin-inline: 2rem;
+    margin-block: 1rem;
+    transition: 0.4s;
+}
+
+.exit-btn:hover, .exit-btn:focus-visible,
+.cheat-btn:hover, .cheat-btn:focus-visible {
+    cursor: pointer;
+    background-color: #A93226;
+}
+
+.active {
+    background-color: #EC7063;
+}
+
+.result {
+    border: 2px #000 solid;
+    border-radius: 1.2rem;
+    padding: 0.8rem;
+    font-family: "Itim";
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.headname {
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.playagain-btn {
+    display: block;
+    margin: 0 auto;
+    border: 2px #000 solid;
+    border-radius: 1.2rem;
+    font-family: "Itim";
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 0.5rem;
+    background-color: #2ECC71;
+    margin-top: 2rem;
+    transition: 0.4s;
+    box-shadow: 6px 3px 1px #ABEBC6;
+}
+
+.playagain-btn:hover,
+.playagain-btn:focus-visible {
+    background-color: #239B56;
+    cursor: pointer;
+    transform: translate(-4px, -2px);
+}
+
+
